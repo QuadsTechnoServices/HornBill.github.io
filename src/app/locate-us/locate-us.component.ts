@@ -7,8 +7,9 @@ declare var $: any;
   styleUrls: ['./locate-us.component.scss']
 })
 export class LocateUsComponent implements OnInit {
-  lat: number = 15.5165;
-  lng: number = 73.9621;
+  lat: number = 15.361683;
+  lng: number = 74.338158;
+  mapsUrl = 'https://maps.google.com/?q=Hornbill+Homestay+Ghotga%2C+Karnataka+581186&ftid=0x0:0x36332cb0d1dcfe40&hl=en&gl=us';
 
   constructor() { }
 
@@ -18,5 +19,9 @@ export class LocateUsComponent implements OnInit {
   launchLocationModal(): void {
     let el: HTMLElement = document.getElementById('launchLocation') as HTMLElement;
     el.click();
+  }
+
+  openGoogleMaps(){
+    window.open(this.mapsUrl, '_blank');
   }
 }

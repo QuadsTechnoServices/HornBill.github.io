@@ -15,3 +15,35 @@ a span {
     background-color: black;
     border-radius: 10px;
 }
+
+#view-details {
+    color: white;
+}
+
+nav#breadcrumb {
+    margin: 5%;
+}
+
+#home-text {
+    margin: 2% 13% 0 13%;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#welcome-header {
+    color: black;
+}
+
+#caption {
+    float: right;
+}
+
+li p{
+    color: gray;
+}
+
+.card-title {
+    font-weight: bolder;
+    font-size: 15px;
+}

@@ -9,6 +9,11 @@ import { AgmCoreModule } from '@agm/core';
 import { LocateUsComponent } from './locate-us/locate-us.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ThrillingActivitiesComponent } from './thrilling-activities/thrilling-activities.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { AccomodationComponent } from './accomodation/accomodation.component';
+import { ReachUsComponent } from './reach-us/reach-us.component';
+import { ClimateComponent } from './climate/climate.component';
+import { PackagesComponent } from './packages/packages.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,12 @@ import { ThrillingActivitiesComponent } from './thrilling-activities/thrilling-a
     HomeComponent,
     LocateUsComponent,
     AboutUsComponent,
-    ThrillingActivitiesComponent
+    ThrillingActivitiesComponent,
+    GalleryComponent,
+    AccomodationComponent,
+    ReachUsComponent,
+    ClimateComponent,
+    PackagesComponent
   ],
   imports: [
     BrowserModule,
