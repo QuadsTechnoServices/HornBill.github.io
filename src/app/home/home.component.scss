@@ -39,11 +39,20 @@ nav#breadcrumb {
     float: right;
 }
 
-li p{
+li p {
     color: gray;
 }
 
 .card-title {
     font-weight: bolder;
     font-size: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+    #welcome-header {
+        font-size: 25px;
+    }
+    li p {
+        font-size: 12px;
+    }
 }

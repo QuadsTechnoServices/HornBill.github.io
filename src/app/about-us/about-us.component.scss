@@ -1,5 +1,19 @@
 div.modal-body {
     text-align: justify;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+.modal-title {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+@media only screen and (max-width: 500px) {
+    .modal-title {
+        font-size: 20px;
+    }
+    div.modal-body {
+        font-size: 12px;
+    }
 }

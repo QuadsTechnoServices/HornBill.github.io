@@ -7,7 +7,7 @@
 
 p {
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .card-title {
@@ -25,4 +25,10 @@ img:active {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
     z-index: 1000;
+}
+
+@media only screen and (max-width: 500px) {
+    p {
+        font-size: 15px;
+    }
 }
