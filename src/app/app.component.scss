@@ -119,3 +119,9 @@ button.btn-outline-secondary {
 #logo-div:hover {
     cursor: pointer;
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   #navbarNav {
+       margin-bottom: 3%;
+   }
+}

@@ -5,6 +5,12 @@
     margin: 0;
 }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   .card-img-top {
+        max-height: 300px;
+   }
+}
+
 .container-fluid {
     padding: 0 10% 0 10%;
 }
